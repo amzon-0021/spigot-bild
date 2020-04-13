@@ -2,4 +2,5 @@ import os
 val = input('インストールするバージョンを入力:')
 
 os.system(f"start java.exe -Xmx1024M -Xms1024M -jar BuildTools.jar --rev {val}")
-print ("おわり")
+print ("ビルドが完了しました")
+
